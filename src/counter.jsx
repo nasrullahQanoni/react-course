@@ -23,10 +23,7 @@ function Counter() {
            <span className="bg-green-500 w-15">{counter}</span>
         <button onClick={decrease} className="bg-red-500 w-15">-</button>
         </div>
-        <div>
-            <p>my name is Nasrullah</p>
-            <button>show/hide</button>
-        </div>
+  
         </>
     )
 }
