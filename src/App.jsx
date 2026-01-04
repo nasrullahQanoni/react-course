@@ -3,6 +3,7 @@ import Counter from './counter'
 import Header from './header'
 import Card from './profile-card'
 import Event from './event'
+import Form from './logginform'
 const App = () => {
    return(
     <>
@@ -15,6 +16,7 @@ const App = () => {
      </div>
      <Counter />
      <Event text="click"/>
+      <Form />
     </>
    )
 }

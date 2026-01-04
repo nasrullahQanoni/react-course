@@ -30,7 +30,6 @@ function Event(props) {
        <input onChange={change} className="" type="text" />
        <input onChange={check} type="checkbox" />
        <input onChange={check2} type="password" />
-
         </>
     )
 }
